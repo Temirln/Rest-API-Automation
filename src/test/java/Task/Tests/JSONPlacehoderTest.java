@@ -47,7 +47,7 @@ public class JSONPlacehoderTest extends BaseTest {
         
         Post postExpected = QAUtils.deserializeToClass(POSTS_EXPECTED_DATA_FILE, POST_EXPECTED, Post.class);
         Post postActual = response.body().as(Post.class);
-   
+         
         Assert.assertEquals(postActual, postExpected, "User Id or Id doesn't match");
         Assert.assertFalse(postActual.getTitle().isEmpty(), "Title filed shouldn't be empty");
         Assert.assertFalse(postActual.getBody().isEmpty(), "Response body shouldn't be empty");
