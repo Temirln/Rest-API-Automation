@@ -1,0 +1,9 @@
+{
+  "postUserIdPOSTRequest": 1,
+  "expectedIdPOSTResponse": 101,
+  "expectedBodyGETRequest": "{}",
+  "expectedContentTypeGETRequest": "application/json; charset=utf-8",
+  "expectedUserID": 5,
+  "titleLenght": 10,
+  "textLenght": 255
+}

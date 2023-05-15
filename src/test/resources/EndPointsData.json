@@ -1,0 +1,7 @@
+{
+  "postsEndpoint": "/posts",
+  "postIdEndpoint": "/posts/99",
+  "postInvalidIDEndpoint": "/posts/150",
+  "usersEndpoint": "/users",
+  "usersIdEndpoint": "/users/5"
+}
